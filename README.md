@@ -53,7 +53,31 @@ A Solidity smart contract that enables decentralized governance using ERC-20 tok
 
 ---
 
-## 🧪 Example
+## 🧪 Example Transaction
 
-```solidity
-vote(0, true); // Vote 'for' proposal with ID 0
+- ✅ **Proposal Created / Voted**  
+  [`0xf36934509b2e4c4da156555d7abb522f2d864273cda81b34c2c9784837e443c6`](https://etherscan.io/tx/0xf36934509b2e4c4da156555d7abb522f2d864273cda81b34c2c9784837e443c6)
+
+Use `getProposal(0)` to check current vote status (view function, no transaction hash).
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+## 🤝 Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change or add.
+
+---
+
+## 🙌 Acknowledgements
+
+- Ethereum Community
+- OpenZeppelin for ERC-20 standards
+- Chainlink (optional: for randomness or oracles in advanced features)
+
+![Screenshot 2025-05-26 142141](https://github.com/user-attachments/assets/686f0a63-1071-4b62-aaa9-1bd8d4af8fc0)
